@@ -1,0 +1,60 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --whiteColor: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--darkBlue);
+}
+
+.card{
+    width: 300px;
+    background: var(--whiteColor);
+    padding: 15px;
+    border-radius: 15px;
+}
+.card .cardImg img{
+    width: 100%;
+    border-radius: 15px;
+}
+.cardBody{
+    padding: 5px;
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--darkBlue);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: var(--grayishBlue);
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+
+}
